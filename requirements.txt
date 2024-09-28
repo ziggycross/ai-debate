@@ -1,5 +1,8 @@
+bertopic
+kaggle
 langchain
 langchain-community
 openai
 pandas
+scikit-learn
 streamlit

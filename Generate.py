@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 st.set_page_config(page_title="AI Debate", page_icon="🎭", layout="wide")
-st.title("AI Debate")
+st.title("AI Debate Generator")
 
 @st.cache_data
 def convert_df(df):
