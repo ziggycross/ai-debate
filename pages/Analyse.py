@@ -26,7 +26,7 @@ def get_kaggle_dataset(user: str, proj: str, file: str) -> pd.DataFrame:
     return df
 
 if kaggle_dataset:
-    df = get_kaggle_dataset("ziggycross", "ai-debate-samples", "aidebates.csv")
+    df = get_kaggle_dataset("ziggycross", "ai-debate", "aidebates.csv")
 else:
     df = pd.read_csv(custom_dataset)
 
